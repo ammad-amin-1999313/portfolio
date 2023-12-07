@@ -42,7 +42,7 @@ function About() {
 
           <div className="text-lg flex flex-col justify-center">
             <h1 className="cursive text-6xl text-green-300 mb-4">
-              there. I'm {``}
+              Hey there. I'm {``}
               <span className="text-green-200">{author.name}</span>
             </h1>
             <div className="prose lg:prose-xl text-white">
