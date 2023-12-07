@@ -21,20 +21,20 @@ function Project() {
       .catch(console.error)
   }, [])
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main className="bg-green-100 min-h-screen line lg:p-12">
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">My Project</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h2 className="text-lg text-gray-600 flex justify-center pl-8 mb-12">
           Welcome to my project page!
         </h2>
-        <section className="grid grid-cols-2 gap-8">
+        <section className="lg:grid flex pb-8 lg:pb-0 flex-col  lg:grid-cols-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
               <article
                 key={index}
                 className="relative rounded-lg shadow-xl bg-white p-16"
               >
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+                <h3 className="text-gray-800 text-xl lg:text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
                     alt={project.title}

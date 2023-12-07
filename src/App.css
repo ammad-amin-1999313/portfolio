@@ -17,3 +17,49 @@
 .wide {
   width: 150px !important;
 }
+.testing-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  z-index: 90;
+  overflow-y: scroll;
+  background-color: black;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  .test {
+    margin-left: -100px;
+  }
+  .img-home {
+    height: 517px;
+  }
+  .img-home-1 {
+    height: 852px;
+  }
+  .section-responsive {
+    margin-top: 65px;
+  }
+  .line {
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 567px) {
+  .middle {
+    padding-left: 290px;
+  }
+  .test {
+    margin-left: -100px;
+  }
+  .img-home {
+    height: 517px;
+  }
+  .img-home-1 {
+    height: 852px;
+  }
+  .section-responsive {
+    margin-top: 65px;
+  }
+}
